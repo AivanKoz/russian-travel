@@ -1,0 +1,31 @@
+.content__lead {
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 148px 0;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .content__lead {
+        max-width: 928px;
+        padding: 48px 48px 0;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .content__lead {
+        max-width: 768px;
+        padding: 48px 0 0;
+        
+    }
+}
+
+@media (max-width: 320px) {
+    .content__lead {
+        max-width: 320px;   
+    }
+}
+

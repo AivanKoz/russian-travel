@@ -1,0 +1,14 @@
+.places__image {
+    object-fit: cover;
+    grid-column-start: -2;
+    grid-column-end: -3;
+    width: 100%;
+}
+
+@media (max-width: 650px) {
+    .places__image {
+        grid-column-start: auto;
+        grid-column-end: auto;
+    }
+}
+

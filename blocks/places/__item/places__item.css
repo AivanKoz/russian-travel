@@ -1,0 +1,31 @@
+.places__item {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    gap: 48px 40px;
+}
+
+@media (max-width: 1024px) {
+    .places__item {
+        max-width: 928px;
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .places__item {
+        max-width: 720px;
+        grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
+    }
+}
+
+@media (max-width: 650px) {
+    .places__item {
+        max-width: 320px;
+        grid-template-columns: 320px;
+        gap: 32px;
+    }
+}
+
