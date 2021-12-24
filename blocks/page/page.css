@@ -5,6 +5,8 @@
     margin: 0 auto;
     padding: 28px 0 24px;
     font-family: 'Inter', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
 }
 
 @media (max-width: 1024px) {
