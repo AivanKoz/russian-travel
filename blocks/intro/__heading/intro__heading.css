@@ -1,9 +1,9 @@
 .intro__heading {
-font-size: 54px;
-font-weight: 900;
-line-height: 58px;
-margin: 0;
-color: #fff;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    margin: 0;
+    color: #fff;
 }
 
 @media (max-width: 420px) {
